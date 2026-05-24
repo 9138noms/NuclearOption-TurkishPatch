@@ -1,0 +1,49 @@
+╔══════════════════════════════════════════════════╗
+║   Nuclear Option — Türkçe Yama                      ║
+║   (Localization Patch)                              ║
+╚══════════════════════════════════════════════════╝
+
+⚠ BETA — Google Translate ile otomatik çevrildi.
+  Topluluk düzeltmeleri bekleniyor.
+
+■ Gereksinimler
+  - Nuclear Option (Steam, Erken Erişim 0.32.5+)
+  - BepInEx 5.x (https://github.com/BepInEx/BepInEx/releases)
+
+■ Kurulum
+  1. BepInEx 5.x'i oyun klasörüne kurun.
+     (Örnek: C:\Program Files (x86)\Steam\steamapps\common\Nuclear Option\)
+
+  2. Oyunu bir kez çalıştırıp kapatın.
+     (Bu, BepInEx klasör yapısını oluşturur)
+
+  3. Bu klasördeki tüm dosyaları şuraya kopyalayın:
+     [Oyun klasörü]\BepInEx\plugins\LocalizationPatch\
+
+     ※ LocalizationPatch klasörü yoksa elle oluşturun.
+
+  4. BepInEx\config\com.noms.localizationpatch.cfg dosyasını düzenleyin:
+        [General]
+        Language = tr
+
+  5. Oyunu başlatın — Türkçe çeviri otomatik olarak uygulanır.
+
+■ Dahil edilen dosyalar
+  - LocalizationPatch.dll          : Çeviri eklentisi
+  - LocalizationPatchDropdown.dll  : Açılır menü eklentisi
+  - tr.json                        : Türkçe çeviri verileri (2.841 girdi)
+  - Exo2-Regular.ttf               : Latin Extended yazı tipi
+
+■ Oyun içi kısayollar
+  - F10         : Hata ayıklama panelini aç/kapat
+  - Ctrl+F10    : Çeviri JSON'unu yeniden yükle (sıcak yeniden yükleme)
+
+■ Çeviri katkıları
+  - İlk taslak: Google Translate ile otomatik oluşturuldu
+  - Topluluk inceleme/düzeltme: Hikari [ATOM] (devam ediyor)
+  - Eklenti / çerçeve:
+    https://github.com/9138noms/NuclearOption-TranslationToolkit
+
+■ Yazı tipi lisansı
+  Exo 2 — SIL Open Font License 1.1
+  https://fonts.google.com/specimen/Exo+2
